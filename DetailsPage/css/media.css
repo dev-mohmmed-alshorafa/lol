@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    margin: 2% 0 0 6%;
+  }
+
+  .box {
+    margin: 0 120px;
+  }
+
+  .blurb {
+    width: 72%;
+    margin: 15px auto 0 auto;
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .map {
+    margin: 0 12px;
+    justify-content: space-around;
+  }
+
+  button {
+    width: 68%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    margin: 1% 0 0 6%;
+  }
+
+  .box {
+    width: 400px;
+    margin: auto;
+  }
+
+  .blurb {
+    width: 52%;
+    margin: 15px auto 0 auto;
+    text-align: center;
+  }
+
+  .map {
+    margin: auto;
+    width: 500px;
+    justify-content: space-between;
+  }
+
+  button {
+    width: 500px;
+  }
+}
